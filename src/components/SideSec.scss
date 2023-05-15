@@ -1,0 +1,13 @@
+.mini{
+    font-size: 25px;
+}
+@media screen and (max-width:"1082px") {
+    .mini{
+        font-size: 18px;
+    }
+}
+@media screen and (max-width:"826px") {
+    .mini{
+        font-size: 15px;
+    }
+}

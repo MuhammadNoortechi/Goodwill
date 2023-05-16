@@ -1,49 +1,18 @@
 import React from 'react'
-// import "../newassetcomp/NewAssetsComp.scss"
+
 import { NavLink } from 'react-router-dom'
 const NewAssetsComp = () => {
   return (
    <>
-    <div className="bg-search-assets-comp">
-      <div className="container container-search-assets-comp">
-        <div className="row">
-          <div className="col">
-            <div class="dropdown">
+    <div className="bg-search-assets-comp ">
+    <div className="heading-asset-component text-center fs-1 pt-5 fw-bold" style={{color:"#0d6efd"}}>New Asstes</div>
+      <div className="container container-search-assets-comp ">
+        
+        <div className="row ">
+          <div className="col-md-4 d-flex justify-center">
+            <div className="dropdown">
               <a
-                className="btn missin fs-5 dropdown-toggle misson py-3 px-4"
-                href="#"
-                role="button"
-                id="dropdownMenuLink"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-              Tag Code
-              </a>
-
-              <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                <li>
-                  <a className="dropdown-item" href="#">
-                   Fixed Assets
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                   Asset Type
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-          {/* second column */}
-          <div className="col d-flex justify-center">
-            <div className="dropdown ">
-              <a
-                className="btn missin fs-5 dropdown-toggle misson py-3 "
+                className="btn missin fs-5 dropdown-toggle  py-3 "
                 href="#"
                 role="button"
                 id="dropdownMenuLink"
@@ -72,19 +41,52 @@ const NewAssetsComp = () => {
               </ul>
             </div>
           </div>
-
-          {/* second column */}
-          <div className="col d-flex justify-center">
-            <div className="dropdown">
+          {/* second col-md-4umn */}
+          <div className="col-md-4 d-flex justify-center ">
+            <div className="dropdown ">
               <a
-                className="btn missin fs-5 dropdown-toggle misson py-3"
+                className="btn missin fs-5 dropdown-toggle  py-3"
                 href="#"
                 role="button"
                 id="dropdownMenuLink"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Asset Type
+                Assets Type
+              </a>
+
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Action
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Another action
+                  </a>
+                </li>
+                <li>
+                  <a className="dropdown-item" href="#">
+                    Something else here
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          {/* second col-md-4umn */}
+          <div className="col-md-4 d-flex justify-center ">
+            <div className="dropdown">
+              <a
+                className="btn missin fs-5 dropdown-toggle  py-3"
+                href="#"
+                role="button"
+                id="dropdownMenuLink"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Tag Code
               </a>
 
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -109,17 +111,17 @@ const NewAssetsComp = () => {
         </div>
         {/* Second row start with row */}
         <div className="row mt-5">
-          <div className="col">
+          <div className="col-md-4 d-flex justify-center">
             <div className="dropdown">
               <a
-                className="btn missin fs-5 dropdown-toggle misson py-3 "
+                className="btn missin fs-5 dropdown-toggle  py-3 "
                 href="#"
                 role="button"
                 id="dropdownMenuLink"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Asset Category
+                Status Asset
               </a>
 
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -141,18 +143,18 @@ const NewAssetsComp = () => {
               </ul>
             </div>
           </div>
-          {/* second column */}
-          <div className="col d-flex justify-center">
+          {/* second col-md-4umn */}
+          <div className="col-md-4 d-flex justify-center ">
             <div className="dropdown ">
               <a
-                className="btn missin fs-5 dropdown-toggle misson py-3 px-4"
+                className="btn missin fs-5 dropdown-toggle  py-3 px-4"
                 href="#"
                 role="button"
                 id="dropdownMenuLink"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-              Status
+                Category
               </a>
 
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -175,18 +177,18 @@ const NewAssetsComp = () => {
             </div>
           </div>
 
-          {/* second column */}
-          <div className="col d-flex justify-center">
+          {/* second col-md-4umn */}
+          <div className="col-md-4 d-flex justify-center ">
             <div className="dropdown">
               <a
-                className="btn missin fs-5 dropdown-toggle misson py-3 px-3"
+                className="btn missin fs-5 dropdown-toggle  py-3 px-4"
                 href="#"
                 role="button"
                 id="dropdownMenuLink"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-               Tag color
+                Facility
               </a>
 
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -201,7 +203,7 @@ const NewAssetsComp = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#">
                     Something else here
                   </a>
                 </li>
@@ -209,19 +211,18 @@ const NewAssetsComp = () => {
             </div>
           </div>
         </div>
-         {/* Second row start with row */}
-         <div className="row mt-5">
-          <div className="col">
+        <div className="row mt-5">
+          <div className="col-md-4 d-flex justify-center">
             <div className="dropdown">
               <a
-                className="btn missin fs-5 dropdown-toggle misson py-3 "
+                className="btn missin fs-5 dropdown-toggle  py-3 "
                 href="#"
                 role="button"
                 id="dropdownMenuLink"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Qunatity/Waight
+                Status Asset
               </a>
 
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -243,18 +244,18 @@ const NewAssetsComp = () => {
               </ul>
             </div>
           </div>
-          {/* second column */}
-          <div className="col d-flex justify-center">
+          {/* second col-md-4umn */}
+          <div className="col-md-4 d-flex justify-center ">
             <div className="dropdown ">
               <a
-                className="btn missin fs-5 dropdown-toggle misson py-3 px-4"
+                className="btn missin fs-5 dropdown-toggle  py-3 px-4"
                 href="#"
                 role="button"
                 id="dropdownMenuLink"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-           Location
+                Category
               </a>
 
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -277,18 +278,18 @@ const NewAssetsComp = () => {
             </div>
           </div>
 
-          {/* second column */}
-          <div className="col d-flex justify-center">
+          {/* second col-md-4umn */}
+          <div className="col-md-4 d-flex justify-center ">
             <div className="dropdown">
               <a
-                className="btn missin fs-5 dropdown-toggle misson py-3 px-4"
+                className="btn missin fs-5 dropdown-toggle  py-3 px-4"
                 href="#"
                 role="button"
                 id="dropdownMenuLink"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Sector
+                Facility
               </a>
 
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -303,7 +304,7 @@ const NewAssetsComp = () => {
                   </a>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
+                  <a class="dropdown-item" href="#">
                     Something else here
                   </a>
                 </li>
@@ -312,12 +313,12 @@ const NewAssetsComp = () => {
           </div>
         </div>
         {/* button start */}
-        <div className="d-flex justify-center">
+        <div className="d-flex justify-center mt-5">
             <NavLink>
             <button className="btn btn-primary rounded-0 py-0 fs-5  px-4 btn-search-asset ">Create</button>
             </NavLink>
         </div>
-           
+       
       </div>
     </div>
    </>

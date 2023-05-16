@@ -3,6 +3,7 @@ import good from "./assets/good.JPG";
 import smart from "./assets/smart.JPG";
 import {Link} from "react-router-dom";
 import { NavLink } from "react-router-dom";
+import check from "./assets/check.png"
 import "./Navbar.scss"
 const Navbar = () => {
   return (
@@ -12,7 +13,9 @@ const Navbar = () => {
        <img src={good} />
      </a>
      <div className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+      <img src={check} alt="" className="img-icon-check"/>
        <NavLink to="/" className="mr-5 fs-5 fw-bold link-navbar">Good News</NavLink>
+       <img src={check} alt="" className="img-icon-check"/>
        <NavLink to="/search" className="mr-5 fs-5 fw-bold link-navbar">Donated Goods</NavLink>
     
      </div>

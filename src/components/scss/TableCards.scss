@@ -20,20 +20,18 @@
   width: 100%;
 
   text-align: center;
- 
-  color: rgb(0, 0, 0);
 
+  color: rgb(0, 0, 0);
 }
 
 .table tbody {
-  max-height: 17rem;
+  max-height: 11rem;
   padding: 2em;
 
   display: block;
   overflow-y: scroll;
   border-bottom-left-radius: 2rem;
   text-align: center;
-
 }
 
 .table tr {

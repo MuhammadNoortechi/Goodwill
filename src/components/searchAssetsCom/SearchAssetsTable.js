@@ -200,7 +200,7 @@ const SearchAssetsTable = () => {
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Something else here
                   </a>
                 </li>
@@ -210,9 +210,9 @@ const SearchAssetsTable = () => {
         </div>
         {/* Third only one dropdown start */}
         <div className=" d-flex justify-end mt-5  " >
-          <div class="dropdown">
+          <div className="dropdown">
             <a
-              class="btn missin fs-5 dropdown-toggle  py-3 px-4 "
+              className="btn missin fs-5 dropdown-toggle  py-3 px-4 "
               href="#"
               role="button"
               id="dropdownMenuLink"
@@ -222,19 +222,19 @@ const SearchAssetsTable = () => {
               Search
             </a>
 
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   Action
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   Another action
                 </a>
               </li>
               <li>
-                <a class="dropdown-item" href="#">
+                <a className="dropdown-item" href="#">
                   Something else here
                 </a>
               </li>

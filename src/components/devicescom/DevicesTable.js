@@ -3,7 +3,7 @@ import { NavLink } from 'react-router-dom'
 import "./DevicesTable.scss"
 const DevicesTable = () => {
   return (
-    <div className="bg-search-assets-comp">
+    <div className="bg-device-table-comp">
     <h1 className="text-center mt-5 fs-2 user-permission-heading fw-bold" style={{color:"#0d6efd"}}> New Devices</h1>
       <div className="container container-search-assets-comp d-flex justify-center">
        <div className="row w-75">

@@ -1,15 +1,17 @@
 import React from "react";
 import "./scss/TableCards.scss";
+
 const TableCards = () => {
   return (
     <>
       <div className="row gx-0 mt-2 gap-3">
         <div className="col-lg table-cont ms-2">
-          <div className="text-center py-4 fs-4 text-capitalize table-card-heading">
+          <div className="text-center py-4  text-capitalize table-card-heading">
             Warehouse Overview:Product Quantities By Category{" "}
           </div>
+
           <table
-            class="table w-100"
+            className="table w-100"
             // style={{ borderBottom: "2px solid black" }}
           >
             <thead>
@@ -19,7 +21,7 @@ const TableCards = () => {
                 <th className="border-0">Total Quantity</th>
               </tr>
             </thead>
-            <tbody class="body">
+            <tbody className="body">
               <tr>
                 <td className="ps-5"></td>
 
@@ -69,11 +71,11 @@ const TableCards = () => {
         </div>
         {/* second-table start */}
         <div className="col-lg table-cont me-2">
-          <div className="text-center py-4 fs-4 text-capitalize table-card-heading">
+          <div className="text-center py-4  text-capitalize table-card-heading">
             Warehouse Overview:Product Quantities By Category{" "}
           </div>
           <table
-            class="table w-100"
+            className="table w-100"
             // style={{ borderBottom: "2px solid black" }}
           >
             <thead>
@@ -83,7 +85,7 @@ const TableCards = () => {
                 <th className="border-0">Total Quantity</th>
               </tr>
             </thead>
-            <tbody class="body">
+            <tbody className="body">
               <tr>
                 <td className="ps-5"></td>
                 <td>All Products</td>
@@ -134,11 +136,11 @@ const TableCards = () => {
       {/* second row start */}
       <div className="row gx-0 ms-1 mt-2 gap-3">
         <div className="col-lg table-cont ms-1">
-          <div className="text-center py-4 fs-4 text-capitalize table-card-heading">
+          <div className="text-center py-4  text-capitalize table-card-heading">
             Warehouse Overview:Product Quantities By Category{" "}
           </div>
           <table
-            class="table w-100"
+            className="table w-100"
             // style={{ borderBottom: "2px solid black" }}
           >
             <thead>
@@ -195,11 +197,11 @@ const TableCards = () => {
         </div>
         {/* second-table start */}
         <div className="col-lg table-cont me-2">
-          <div className="text-center py-4 fs-4 text-capitalize table-card-heading">
+          <div className="text-center py-4  text-capitalize table-card-heading">
             Warehouse Overview:Product Quantities By Category{" "}
           </div>
           <table
-            class="table w-100"
+            className="table w-100"
             // style={{ borderBottom: "2px solid black" }}
           >
             <thead>
@@ -209,7 +211,7 @@ const TableCards = () => {
                 <th className="border-0">Total Quantity</th>
               </tr>
             </thead>
-            <tbody class="body">
+            <tbody className="body">
               <tr>
                 <td className="ps-5"></td>
                 <td>All Products</td>

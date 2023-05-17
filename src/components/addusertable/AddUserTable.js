@@ -1,16 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import "./AddUserTable.scss"
 const AddUserTable = () => {
   return (
     <>
-      <div className="bg-search-assets-comp">
+      <div className="bg-add-user-comp">
       <h1 className="text-center mt-5 fs-1 user-permission-heading fw-bold" style={{color:"#0d6efd"}}> New User </h1>
         <div className="container container-search-assets-comp">
        
           <div className="row">
             <div className="col">
-              <div class="dropdown">
+              <div className="dropdown">
                 <a
                   className="btn missin fs-5 dropdown-toggle misson py-3 px-4"
                   href="#"

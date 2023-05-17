@@ -6,7 +6,7 @@ const AlertComp = () => {
     <div className="table-cont-alert alert-table" >
         <div className="heading-alert-table text-center fs-1 py-5 fw-bold" style={{color:"#0d6efd"}}>Alerts</div>
      <table
-            class="table-alert w-100 " 
+            className="table-alert w-100 " 
         
           >
             <thead>
@@ -19,7 +19,7 @@ const AlertComp = () => {
                 <th className="border-0">Alert Date</th>
               </tr>
             </thead>
-            <tbody class="body-alert">
+            <tbody className="body-alert">
               <tr>
                 <td className="">Battery less than 20%</td>
                 <td>3B9ACA35</td>

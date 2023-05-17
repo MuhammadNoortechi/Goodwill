@@ -5,11 +5,13 @@ export const SidebarData=[
       {
         title: "Dashobard",
         path: "/",
+     
         icon: <img src={check} alt="" />,
       },
       {
         title: "Search Assets",
         path: "/search",
+       
         icon: <img src={check} alt="" />,
       },
       {

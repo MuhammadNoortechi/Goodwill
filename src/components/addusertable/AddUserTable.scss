@@ -1,9 +1,15 @@
 .bg-add-user-comp {
   background: rgb(227, 231, 240);
-  padding-bottom: 5rem;
+  height: 92.5vh;
 
   border-radius: 80px;
   margin: 4px;
   border: 2px solid black;
   // margin-bottom: 5rem;
+}
+
+@media screen and (max-width: 1322px) {
+  .bg-add-user-comp {
+    height: 119vh;
+  }
 }

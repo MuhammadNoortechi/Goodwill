@@ -2,7 +2,7 @@
   display: block;
   empty-cells: show;
   border-spacing: 0;
-
+  height: auto;
   padding-bottom: 3rem;
   position: relative;
 }
@@ -25,7 +25,7 @@
 }
 
 .table tbody {
-  max-height: 11rem;
+  max-height: 16rem;
   padding: 2em;
 
   display: block;
@@ -64,6 +64,11 @@ table tr th {
   height: 2px;
   background: #8d88887c;
   position: absolute;
-  bottom: 3rem;
+  bottom: 2rem;
   left: 4.5rem;
+}
+@media screen and (max-width: 1322px) {
+  .table tbody {
+    max-height: 11rem;
+  }
 }

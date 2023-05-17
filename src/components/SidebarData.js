@@ -1,10 +1,10 @@
-import * as FaIcons from "react-icons/fa";
+
 import check from "../assets/check.png"
 export const SidebarData=[
     
       {
         title: "Dashobard",
-        path: "/",
+        path:"/",
      
         icon: <img src={check} alt="" />,
       },

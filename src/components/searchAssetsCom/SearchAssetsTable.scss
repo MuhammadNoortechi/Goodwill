@@ -1,116 +1,118 @@
-.bg-search-assets-comp{
-    background: rgb(227, 231, 240);
-//   padding-bottom: 5rem;
-height: 100vh;
-    border-radius: 80px;
-    margin: 4px;
-    border : 2px solid black;
-    // margin-bottom: 5rem;
+.bg-search-assets-comp {
+  background: rgb(227, 231, 240);
 
+  height: 92.5vh;
+  border-radius: 80px;
+  margin: 4px;
+  border: 2px solid black;
+  // margin-bottom: 5rem;
 }
-.container-search-assets-comp{
-    padding-top: 5rem;
+.container-search-assets-comp {
+  padding-top: 5rem;
 }
 
 // .dropdown-toggle::after{
 //     margin-left:19rem ;
- 
+
 // }
-.dropdown-toggle::after{
-    margin-top: 0.5rem;
+.dropdown-toggle::after {
+  margin-top: 0.5rem;
 }
-.missin{
-    border: 1px solid rgb(0, 0, 0);
-    width: 30rem;
+.missin {
+  border: 1px solid rgb(0, 0, 0);
+  width: 30rem;
+  display: flex;
+  justify-content: space-between;
+}
+.missin:hover {
+  border: 1px solid rgb(0, 0, 0);
+}
+.btn-search-asset {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.btn-search-export {
+  background: #c6c3c3;
+  border: 1px solid rgb(66, 143, 225);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+@media screen and (max-width: "1831px") {
+  .missin {
+    width: 25rem;
+    transition: 0.5s ease-in-out;
+  }
+}
+@media screen and (max-width: "1540px") {
+  .missin {
+    width: 22rem;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+@media screen and (max-width: "1371px") {
+  .missin {
+    width: 20rem;
+    transition: 0.5s ease-in-out;
+  }
+}
+
+@media screen and (max-width: "1280px") {
+  .missin {
+    width: 15rem;
+    transition: 0.5s ease-in-out;
+  }
+}
+@media screen and (max-width: "1025px") {
+  .missin {
+    width: 14rem;
+    transition: 0.5s ease-in-out;
+    display: block;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: "900px") {
+  .missin {
+    width: 13rem;
+    transition: 0.5s ease-in-out;
+    display: block;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: "850px") {
+  .missin {
+    width: 12rem;
+    transition: 0.5s ease-in-out;
+    display: block;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: "794px") {
+  .missin {
+    width: 10rem;
+    transition: 0.5s ease-in-out;
+    display: block;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: "700px") {
+  .missin {
+    width: 17rem;
+    transition: 0.5s ease-in-out;
+    margin: 1rem;
     display: flex;
     justify-content: space-between;
-}
-.missin:hover{
-    border: 1px solid rgb(0, 0, 0);
-}
-.btn-search-asset{
-  
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-}
-.btn-search-export{
-    background: #c6c3c3;
-    border: 1px solid rgb(66, 143, 225);
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-   
-}
-@media screen and (max-width:"1831px"){
-    .missin{
-        width: 25rem;
-        transition: 0.5s ease-in-out;
-    }
-}
-@media screen and (max-width:"1540px"){
-    .missin{
-        width: 22rem;
-        transition: 0.5s ease-in-out;
-    }
+  }
+  .dropdown-toggle::after {
+    margin-top: 1rem;
+  }
+  .container-search-assets-comp {
+    padding-top: 2rem;
+    transition: 0.4s ease-in-out;
+  }
 }
 
-@media screen and (max-width:"1371px"){
-    .missin{
-        width: 20rem;
-        transition: 0.5s ease-in-out;
-    }
-}
-
-@media screen and (max-width:"1280px"){
-    .missin{
-        width: 15rem;
-        transition: 0.5s ease-in-out;
-    }
-}
-@media screen and (max-width:"1025px"){
-    .missin{
-        width: 14rem;
-        transition: 0.5s ease-in-out;
-        display: block;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width:"900px"){
-    .missin{
-        width: 13rem;
-        transition: 0.5s ease-in-out;
-        display: block;
-        justify-content: center;
-    }
-}
-@media screen and (max-width:"850px"){
-    .missin{
-        width: 12rem;
-        transition: 0.5s ease-in-out;
-        display: block;
-        justify-content: center;
-    }
-}
-@media screen and (max-width:"794px"){
-    .missin{
-        width: 10rem;
-        transition: 0.5s ease-in-out;
-        display: block;
-        justify-content: center;
-    }
-}
-@media screen and (max-width:"700px"){
-    .missin{
-        width: 17rem;
-        transition: 0.5s ease-in-out;
-        margin: 1rem;
-        display: flex;
-        justify-content: space-between;
-      
-    }
-    .dropdown-toggle::after{
-        margin-top: 1rem;
-    }
-    .container-search-assets-comp{
-        padding-top: 2rem;
-        transition: 0.4s ease-in-out;
-    }
+@media screen and (max-width: 1322px) {
+  .bg-search-assets-comp {
+    height: 120vh;
+  }
 }

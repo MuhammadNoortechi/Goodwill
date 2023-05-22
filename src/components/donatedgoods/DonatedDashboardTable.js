@@ -1,13 +1,12 @@
 import React from "react";
-import "./scss/TableCards.scss";
 
-const TableCards = () => {
+const DonatedDashboardTable = () => {
   return (
     <>
       <div className="row gx-0 mt-2 gap-3">
         <div className="col-lg table-cont ms-2">
-          <div className="text-center py-4  text-capitalize table-card-heading fs-4">
-            Warehouse Overview:Product Quantities By Category{" "}
+          <div className="text-center py-4  text-capitalize table-card-heading fs-3">
+            Inventory by category
           </div>
 
           <table
@@ -71,8 +70,8 @@ const TableCards = () => {
         </div>
         {/* second-table start */}
         <div className="col-lg table-cont me-2">
-          <div className="text-center py-4  text-capitalize table-card-heading fs-4">
-            Warehouse Overview:Product Quantities By Category{" "}
+          <div className="text-center py-4  text-capitalize table-card-heading fs-3">
+            Inventory by Asstes
           </div>
           <table
             className="table w-100"
@@ -136,8 +135,8 @@ const TableCards = () => {
       {/* second row start */}
       <div className="row gx-0 ms-1 mt-2 gap-3">
         <div className="col-lg table-cont ms-1">
-          <div className="text-center py-4  text-capitalize table-card-heading fs-4">
-            Warehouse Overview:Product Quantities By Category{" "}
+          <div className="text-center py-4  text-capitalize table-card-heading fs-3">
+            Stored Assets Type by location
           </div>
           <table
             className="table w-100"
@@ -197,9 +196,12 @@ const TableCards = () => {
         </div>
         {/* second-table start */}
         <div className="col-lg table-cont me-2">
-          <div className="text-center py-4  text-capitalize table-card-heading fs-4">
-            Warehouse Overview:Product Quantities By Category{" "}
+          
+          <div className=" py-4 text-center  text-capitalize table-card-heading fs-3">
+            Status by facility
           </div>
+
+       
           <table
             className="table w-100"
             // style={{ borderBottom: "2px solid black" }}
@@ -262,4 +264,4 @@ const TableCards = () => {
   );
 };
 
-export default TableCards;
+export default DonatedDashboardTable;

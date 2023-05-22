@@ -201,7 +201,7 @@ const EditAssetsTable = () => {
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Something else here
                   </a>
                 </li>
@@ -302,7 +302,7 @@ const EditAssetsTable = () => {
                   </a>
                 </li>
                 <li>
-                  <a class="dropdown-item" href="#">
+                  <a className="dropdown-item" href="#">
                     Something else here
                   </a>
                 </li>

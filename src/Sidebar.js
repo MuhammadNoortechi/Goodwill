@@ -10,8 +10,8 @@ const Sidebar = () => {
     "hover: pl-7 mt-7 w-full h-14 flex justify-start items-center text-dark text-2xl space-x-1 font-bold";
   return (
     <>
-      <section>
-        <div className="">
+      <section >
+        <div className="" >
           {SidebarData.map((item, index) => {
             return (
               <div key={index}>

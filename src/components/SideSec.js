@@ -9,11 +9,13 @@ const SideSec = () => {
     "hover: pl-7 mt-8 w-full  flex justify-start items-center text-dark  space-x-1  fs-5  pt-1 fw-bold";
   return (
     <React.Fragment>
-      <section className="sidesec"
+      <section
+        className="sidesec"
         style={{
-          marginTop: "6rem",
+          marginTop: "10rem",
           borderTop: "1px black solid",
           background: "#e3e7f0",
+          height: "100%",
         }}
       >
         <div className="heading-lastdata fw-bold fs-4 ps-4 pt-3">

@@ -5,7 +5,7 @@ const DonatedDashboardTable = () => {
     <>
       <div className="row gx-0 mt-2 gap-3">
         <div className="col-lg table-cont ms-2">
-          <div className="text-center py-4  text-capitalize table-card-heading fs-3">
+          <div className="text-center py-4  text-capitalize table-card-heading fs-5">
             Inventory by category
           </div>
 
@@ -70,8 +70,20 @@ const DonatedDashboardTable = () => {
         </div>
         {/* second-table start */}
         <div className="col-lg table-cont me-2">
-          <div className="text-center py-4  text-capitalize table-card-heading fs-3">
-            Inventory by Asstes
+          <div className="d-flex align-items-center justify-center">
+            <div className="text-center py-4  text-capitalize table-card-heading fs-5">
+              Inventory by Assets
+            </div>
+            <div
+              className="facility   py-1 px-4 rounded shadow ms-5"
+              style={{ background: "#dddddd", color: "#1976d6" }}
+            >
+              <i
+                className="fa-sharp fa-solid fa-caret-down me-2"
+                style={{ color: " #1976d6" }}
+              ></i>
+              Facility
+            </div>
           </div>
           <table
             className="table w-100"
@@ -135,8 +147,20 @@ const DonatedDashboardTable = () => {
       {/* second row start */}
       <div className="row gx-0 ms-1 mt-2 gap-3">
         <div className="col-lg table-cont ms-1">
-          <div className="text-center py-4  text-capitalize table-card-heading fs-3">
-            Stored Assets Type by location
+          <div className="d-flex align-items-center justify-center">
+            <div className="text-center py-4  text-capitalize table-card-heading fs-5">
+              Store Asstes type by location
+            </div>
+            <div
+              className="facility   py-1 px-4 rounded shadow ms-5"
+              style={{ background: "#dddddd", color: "#1976d6" }}
+            >
+              <i
+                className="fa-sharp fa-solid fa-caret-down me-2"
+                style={{ color: " #1976d6" }}
+              ></i>
+              Facility
+            </div>
           </div>
           <table
             className="table w-100"
@@ -196,12 +220,22 @@ const DonatedDashboardTable = () => {
         </div>
         {/* second-table start */}
         <div className="col-lg table-cont me-2">
-          
-          <div className=" py-4 text-center  text-capitalize table-card-heading fs-3">
-            Status by facility
+          <div className="d-flex align-items-center justify-center">
+            <div className="text-center py-4  text-capitalize table-card-heading fs-5">
+              Status by facility
+            </div>
+            <div
+              className="facility   py-1 px-4 rounded shadow ms-5"
+              style={{ background: "#dddddd", color: "#1976d6" }}
+            >
+              <i
+                className="fa-sharp fa-solid fa-caret-down me-2"
+                style={{ color: " #1976d6" }}
+              ></i>
+              Facility
+            </div>
           </div>
 
-       
           <table
             className="table w-100"
             // style={{ borderBottom: "2px solid black" }}

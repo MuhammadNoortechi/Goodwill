@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 import Dashboard from "./Dashboard";
 import Searchasets from "./Searchasets";
 import Report from "./Report";
-
+import "../Navbar.scss"
 import Devices from "./lastsidenavcom/Devices";
 import AddAssets from "./lastsidenavcom/AddAssets";
 import Alerts from "./lastsidenavcom/Alerts";
@@ -24,12 +24,14 @@ import Sidebar from "../Sidebar";
 const NavPage = () => {
   const [newGood, setNewGood] = useState(true);
   const handleToggle = () => {
-    setNewGood(!newGood);
+    setNewGood(newGood =>!newGood);
   };
+  
 
+  // const handleTo = newGood ?" active ":"";
   return (
     <>
-      <Navbar toggle={handleToggle} />
+      <Navbar toggle={handleToggle}  />
      
 
   
@@ -49,7 +51,7 @@ const NavPage = () => {
           <Route
             path="/"
             element={
-              newGood ? <Dashboard /> : <DonatedDashboard replace to={"/"} />
+              newGood  ? <Dashboard /> : <DonatedDashboard replace to={"/"} />
             }
           ></Route>
           <Route
@@ -102,6 +104,7 @@ const NavPage = () => {
               newGood ? <Alerts /> : <DonatedAlerts replace to={"/device"} />
             }
           ></Route>
+          <Route path="/donateddashboard" element={<DonatedDashboard/>}></Route>
         </Routes>
           </div>
         </div>

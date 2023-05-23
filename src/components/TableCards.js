@@ -6,7 +6,7 @@ const TableCards = () => {
     <>
       <div className="row gx-0 mt-2 gap-3">
         <div className="col-lg table-cont ms-2">
-          <div className="text-center py-4  text-capitalize table-card-heading fs-4">
+          <div className="text-center py-4  text-capitalize table-card-heading fs-5">
             Warehouse Overview:Product Quantities By Category{" "}
           </div>
 
@@ -71,7 +71,7 @@ const TableCards = () => {
         </div>
         {/* second-table start */}
         <div className="col-lg table-cont me-2">
-          <div className="text-center py-4  text-capitalize table-card-heading fs-4">
+          <div className="text-center py-4  text-capitalize table-card-heading fs-5">
             Warehouse Overview:Product Quantities By Category{" "}
           </div>
           <table
@@ -136,7 +136,7 @@ const TableCards = () => {
       {/* second row start */}
       <div className="row gx-0 ms-1 mt-2 gap-3">
         <div className="col-lg table-cont ms-1">
-          <div className="text-center py-4  text-capitalize table-card-heading fs-4">
+          <div className="text-center py-4  text-capitalize table-card-heading fs-5">
             Warehouse Overview:Product Quantities By Category{" "}
           </div>
           <table
@@ -197,7 +197,7 @@ const TableCards = () => {
         </div>
         {/* second-table start */}
         <div className="col-lg table-cont me-2">
-          <div className="text-center py-4  text-capitalize table-card-heading fs-4">
+          <div className="text-center py-4  text-capitalize table-card-heading fs-5">
             Warehouse Overview:Product Quantities By Category{" "}
           </div>
           <table

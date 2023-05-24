@@ -21,14 +21,15 @@ import DonatedAddUser from "./donatedgoods/DonatedAddUser";
 import DonatedDevices from "./donatedgoods/DonatedDevices";
 import DonatedAlerts from "./donatedgoods/DonatedAlerts";
 import Sidebar from "../Sidebar";
+import { click } from "@testing-library/user-event/dist/click";
 const NavPage = () => {
   const [newGood, setNewGood] = useState(true);
   const handleToggle = () => {
-    setNewGood(newGood =>!newGood);
+    setNewGood(!newGood);
   };
   
 
-  // const handleTo = newGood ?" active ":"";
+  
   return (
     <>
       <Navbar toggle={handleToggle}  />

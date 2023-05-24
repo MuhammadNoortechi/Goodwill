@@ -9,6 +9,7 @@ const DonatedEditAssetComp = () => {
 
   return (
     <>
+    
         
       <div className="bg-search-assets-comp ">
         <div
@@ -17,7 +18,7 @@ const DonatedEditAssetComp = () => {
         >
           Edit Assets
         </div>
-     
+       
         <div className="container container-search-assets-comp ">
           {/* /// */}
           <div className="dropdown d-flex justify-center">

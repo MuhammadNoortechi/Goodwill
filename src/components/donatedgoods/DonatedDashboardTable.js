@@ -76,7 +76,7 @@ const DonatedDashboardTable = () => {
             </div>
             <div
               className="facility   py-1 px-4 rounded shadow ms-5"
-              style={{ background: "#dddddd", color: "#1976d6" }}
+              style={{ background: "#dddddd", color: "#1976d6" ,border:"1px solid #000"}}
             >
               <i
                 className="fa-sharp fa-solid fa-caret-down me-2"
@@ -153,7 +153,7 @@ const DonatedDashboardTable = () => {
             </div>
             <div
               className="facility   py-1 px-4 rounded shadow ms-5"
-              style={{ background: "#dddddd", color: "#1976d6" }}
+              style={{ background: "#dddddd", color: "#1976d6" ,border:"1px solid #000"}}
             >
               <i
                 className="fa-sharp fa-solid fa-caret-down me-2"
@@ -226,7 +226,7 @@ const DonatedDashboardTable = () => {
             </div>
             <div
               className="facility   py-1 px-4 rounded shadow ms-5"
-              style={{ background: "#dddddd", color: "#1976d6" }}
+              style={{ background: "#dddddd", color: "#1976d6" ,border:"1px solid #000"}}
             >
               <i
                 className="fa-sharp fa-solid fa-caret-down me-2"

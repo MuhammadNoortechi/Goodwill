@@ -6,7 +6,7 @@ const DonatedShowModal = ({closeModal}) => {
     <>
   
  
- <div className="bg-search-assets-comp-modal  mt-5 pb-5" >
+ <div className="bg-search-assets-comp-modal  mt-5 pb-5" style={{}}>
   
       <div className="container container-search-assets-comp px-4 "  >
         
@@ -285,11 +285,11 @@ const DonatedShowModal = ({closeModal}) => {
         </div>
         {/* button start */}
         <div className="d-flex justify-between btns-modal " >
-         
+     
             <button className="btn btn-primary rounded-0 py-0 fs-5  px-4 btn-search-asset "onClick={closeModal}>Cancel</button>
            
            
-            <button className="btn  rounded-0 py-0 fs-5  px-4 btn-search-asset text-white" onClick={closeModal} style={{background:"#81007F"}}>Save</button>
+            <button className="btn  rounded-0 py-0 fs-5  px-4 btn-search-asset text-white " onClick={closeModal} style={{background:"#81007F",marginLeft:"10rem"}}>Save</button>
            
         </div>
        

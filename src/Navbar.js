@@ -18,13 +18,13 @@ const Navbar = ({ toggle }) => {
         </a>
         <div className="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
           <img src={check} alt="" className="img-icon-check pb-2" />
-   <NavLink to="/">
+       <NavLink to="/">
           <button onClick={toggle} className="fs-5 fw-bold pb-2">
             New Goods
           </button>
           </NavLink>
           <img src={check} alt="" className="img-icon-check pb-2 ms-2" />
-  <NavLink to="/donateddashboard">
+        <NavLink to="/donateddashboard">
           <button onClick={toggle} className="fs-5 fw-bold pb-2" >
             Donated Goods
           </button>

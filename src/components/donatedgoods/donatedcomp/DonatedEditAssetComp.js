@@ -11,7 +11,7 @@ const DonatedEditAssetComp = () => {
     <>
     
         
-      <div className="bg-search-assets-comp ">
+      <div className="bg-search-assets-comp " style={{position:"relative"}}>
         <div
           className="heading-asset-component text-center fs-1 pt-5 fw-bold"
           style={{ color: "#0d6efd" }}
@@ -30,7 +30,7 @@ const DonatedEditAssetComp = () => {
           {/* button start */}
           <div
             className="d-flex justify-center "
-            style={{ marginTop: "15rem" }}
+            style={{ marginTop: "5rem" }}
           >
             <button className="btn btn-primary rounded-0 py-0 fs-5  px-4 btn-search-asset "onClick={()=>setShowModal(true)}>
               Edit
@@ -38,8 +38,10 @@ const DonatedEditAssetComp = () => {
          
             
           </div>
+
+          <div style={{position:"absolute" ,marginLeft:"50rem"}}>
           {showModal && <DonatedShowModal closeModal={closeModal}/>}
-        
+          </div>
         </div>
        
       </div>

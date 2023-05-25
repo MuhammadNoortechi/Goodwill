@@ -90,7 +90,7 @@ const NavPage = () => {
           <Route
             path="/add"
             element={
-              newGood ? <Addusers /> : <DonatedAddUser replace to={"/add"} />
+              newGood ? <Addusers /> :<DonatedAddUser  replace to={"/add"} />
             }
           ></Route>
           <Route

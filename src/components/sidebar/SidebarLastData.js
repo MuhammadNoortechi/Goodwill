@@ -1,5 +1,5 @@
 import * as FaIcons from "react-icons/fa";
-import check from "../assets/check.png"
+import check from "../../assets/check.png"
 export const SidebarLastData=[
     
       {

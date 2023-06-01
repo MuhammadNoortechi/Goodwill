@@ -1,5 +1,6 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import ButtonP from "../ui/ButtonP"
 const EditAssetsTable = () => {
   return (
     <div className="bg-search-assets-comp ">
@@ -312,9 +313,7 @@ const EditAssetsTable = () => {
         </div>
         {/* button start */}
         <div className="d-flex justify-center mt-5">
-            <NavLink>
-            <button className="btn btn-primary rounded-0 py-0 fs-5  px-4 btn-search-asset ">Edit</button>
-            </NavLink>
+         <ButtonP label={"Edit"}/>
         </div>
        
       </div>

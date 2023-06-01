@@ -1,7 +1,7 @@
 import React from "react";
-import good from "./assets/good.JPG";
-import smart from "./assets/smart.JPG";
-import check from "./assets/check.png";
+import good from "../../assets/good.JPG";
+import smart from "../../assets/smart.JPG";
+import check from "../../assets/check.png";
 import "./Navbar.scss";
 import { NavLink } from "react-router-dom";
 

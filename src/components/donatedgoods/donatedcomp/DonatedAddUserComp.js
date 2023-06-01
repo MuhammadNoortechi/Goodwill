@@ -1,12 +1,17 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
-
+import React from "react";
+import { NavLink } from "react-router-dom";
+import ButtonP from "../../ui/ButtonP";
 const DonatedAddUserComp = () => {
   return (
     <div className="bg-add-user-comp">
-    <h1 className="text-center mt-5 fs-1 user-permission-heading fw-bold" style={{color:"#0d6efd"}}> New User </h1>
+      <h1
+        className="text-center mt-5 fs-1 user-permission-heading fw-bold"
+        style={{ color: "#0d6efd" }}
+      >
+        {" "}
+        New User{" "}
+      </h1>
       <div className="container container-search-assets-comp">
-     
         <div className="row">
           <div className="col">
             <div className="dropdown">
@@ -21,10 +26,7 @@ const DonatedAddUserComp = () => {
                 Name
               </a>
 
-              <ul
-                className="dropdown-menu"
-                aria-labelledby="dropdownMenuLink"
-              >
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li>
                   <a className="dropdown-item" href="#">
                     Fixed Assets
@@ -54,13 +56,10 @@ const DonatedAddUserComp = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-               User Name
+                User Name
               </a>
 
-              <ul
-                className="dropdown-menu"
-                aria-labelledby="dropdownMenuLink"
-              >
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li>
                   <a className="dropdown-item" href="#">
                     Action
@@ -94,10 +93,7 @@ const DonatedAddUserComp = () => {
                 Password
               </a>
 
-              <ul
-                className="dropdown-menu"
-                aria-labelledby="dropdownMenuLink"
-              >
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li>
                   <a className="dropdown-item" href="#">
                     Action
@@ -132,10 +128,7 @@ const DonatedAddUserComp = () => {
                 Email
               </a>
 
-              <ul
-                className="dropdown-menu"
-                aria-labelledby="dropdownMenuLink"
-              >
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li>
                   <a className="dropdown-item" href="#">
                     Action
@@ -165,13 +158,10 @@ const DonatedAddUserComp = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-             Role
+                Role
               </a>
 
-              <ul
-                className="dropdown-menu"
-                aria-labelledby="dropdownMenuLink"
-              >
+              <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
                 <li>
                   <a className="dropdown-item" href="#">
                     Action
@@ -195,53 +185,51 @@ const DonatedAddUserComp = () => {
           <div className="col d-flex justify-center"></div>
         </div>
       </div>
-      <h1 className="text-center py-5 fs-2 user-permission-heading" style={{color:"#0d6efd"}}>Access Level </h1>
+      <h1
+        className="text-center py-5 fs-2 user-permission-heading"
+        style={{ color: "#0d6efd" }}
+      >
+        Access Level{" "}
+      </h1>
       <div className="col d-flex justify-center">
-      <div className="dropdown ">
-              <a
-                className="btn missin fs-5 dropdown-toggle misson py-3 px-4"
-                href="#"
-                role="button"
-                id="dropdownMenuLink"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Status
-              </a>
+        <div className="dropdown ">
+          <a
+            className="btn missin fs-5 dropdown-toggle misson py-3 px-4"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-bs-toggle="dropdown"
+            aria-expanded="false"
+          >
+            Status
+          </a>
 
-              <ul
-                className="dropdown-menu"
-                aria-labelledby="dropdownMenuLink"
-              >
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-                
+          <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <li>
+              <a className="dropdown-item" href="#">
+                Action
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" href="#">
+                Another action
+              </a>
+            </li>
+            <li>
+              <a className="dropdown-item" href="#">
+                Something else here
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
       {/* button start */}
       <div className="d-flex justify-center mt-5">
-        <NavLink>
-          <button className="btn btn-primary rounded-0 py-0 fs-5  px-4 btn-search-asset ">
-            Create
-          </button>
-        </NavLink>
+        <ButtonP label={"Add new"} />
       </div>
-      </div>
-  )
-}
+    </div>
+  );
+};
 
-export default DonatedAddUserComp
+export default DonatedAddUserComp;

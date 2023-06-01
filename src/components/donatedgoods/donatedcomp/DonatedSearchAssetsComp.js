@@ -1,5 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
+import ButtonP from "../../ui/ButtonP"
+import ButtonS from "../../ui/ButtonS"
 const DonatedSearchAssetsComp = () => {
   return (
     <>
@@ -244,15 +246,12 @@ const DonatedSearchAssetsComp = () => {
         </div>
         {/* button start */}
         <div className="d-flex justify-center mt-5">
-            <NavLink>
-            <button className="btn btn-primary rounded-0 py-0 fs-5  px-4 btn-search-asset ">Search</button>
-            </NavLink>
+            
+            <ButtonP label={"Search"}/>
         </div>
             {/* button start */}
             <div className="d-flex justify-center">
-            <NavLink>
-            <button className="btn-search-export rounded-0 py-0 fs-5 mt-3 px-2">Export</button>
-            </NavLink>
+            <ButtonS name={"Export"}/>
         </div>
       </div>
     </div>

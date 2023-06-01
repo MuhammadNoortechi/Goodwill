@@ -1,5 +1,5 @@
 import React from 'react'
-
+import ButtonP from "../ui/ButtonP"
 import { NavLink } from 'react-router-dom'
 const NewAssetsComp = () => {
   return (
@@ -313,10 +313,8 @@ const NewAssetsComp = () => {
           </div>
         </div>
         {/* button start */}
-        <div className="d-flex justify-center mt-5">
-            <NavLink>
-            <button className="btn btn-primary rounded-0 py-0 fs-5  px-4 btn-search-asset ">Create</button>
-            </NavLink>
+        <div className="d-flex justify-center mt-5 pt-5">
+         <ButtonP label={"Create"}/>
         </div>
        
       </div>

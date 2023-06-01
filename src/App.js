@@ -1,13 +1,13 @@
 import React from "react";
-import Header from "./Header";
-import NavPage from "./components/NavPage";
+
+import HomePage from "./components/homepage/HomePage";
 import { BrowserRouter } from "react-router-dom";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
-      <NavPage/>
+        <HomePage/>
       </BrowserRouter>
     </>
   );

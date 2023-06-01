@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import DonatedShowModal from "./DonatedShowModal";
+import ButtonP from "../../ui/ButtonP"
 const DonatedEditAssetComp = () => {
   const [showModal, setShowModal] = useState(false);
 
@@ -35,11 +36,11 @@ const DonatedEditAssetComp = () => {
             <button className="btn btn-primary rounded-0 py-0 fs-5  px-4 btn-search-asset "onClick={()=>setShowModal(true)}>
               Edit
             </button>
-         
+            {/* <ButtonP className="btn btn-primary rounded-0 py-0 fs-5  px-4 btn-search-asset "onClick={()=>setShowModal(true)} label={"edit"}/> */}
             
           </div>
 
-          <div style={{position:"absolute" ,marginLeft:"50rem"}}>
+          <div style={{position:"absolute " , marginLeft:"50rem", }}>
           {showModal && <DonatedShowModal closeModal={closeModal}/>}
           </div>
         </div>

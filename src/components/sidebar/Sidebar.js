@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { SidebarData } from "./components/SidebarData";
-import SideSec from "./components/SideSec";
-import "./components/Sidebar.scss";
+import { SidebarData } from "./SidebarData";
+import SideSec from "./SideSec";
+import "./Sidebar.scss";
 const Sidebar = () => {
   const activeLink =
     "hover: mt-7 pl-7 w-full h-14 flex justify-start items-center text-primary text-2xl space-x-1 font-bold  ";

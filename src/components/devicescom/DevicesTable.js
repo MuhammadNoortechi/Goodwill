@@ -1,5 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
+import ButtonP from "../ui/ButtonP"
 import "./DevicesTable.scss";
 const DevicesTable = () => {
   return (
@@ -102,11 +103,7 @@ const DevicesTable = () => {
       </div>
       {/* button start */}
       <div className="d-flex justify-center mt-5">
-        <NavLink>
-          <button className="btn btn-primary rounded-0 py-0 fs-5  px-4 btn-search-asset ">
-            Create
-          </button>
-        </NavLink>
+      < ButtonP label={"Create"}/>
       </div>
       <div className="fs-2 text-center mt-3" style={{ color: "#0d6efd" }}>
         Edit Devices

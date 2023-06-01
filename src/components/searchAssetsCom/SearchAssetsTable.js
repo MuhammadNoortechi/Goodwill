@@ -1,6 +1,9 @@
 import React from "react";
 import "../searchAssetsCom/SearchAssetsTable.scss";
 import { NavLink } from "react-router-dom";
+import ButtonP from "../ui/ButtonP";
+import ButtonS from "../ui/ButtonS";
+import Search from "antd/es/transfer/search";
 const SearchAssetsTable = () => {
   return (
     <div className="bg-search-assets-comp ">
@@ -242,16 +245,12 @@ const SearchAssetsTable = () => {
           </div>
         </div>
         {/* button start */}
-        <div className="d-flex justify-center mt-5">
-            <NavLink>
-            <button className="btn btn-primary rounded-0 py-0 fs-5  px-4 btn-search-asset ">Search</button>
-            </NavLink>
+        <div className="d-flex justify-center " style={{marginTop:"10rem"}}>
+           <ButtonP label={"Search"}/>
         </div>
             {/* button start */}
-            <div className="d-flex justify-center">
-            <NavLink>
-            <button className="btn-search-export rounded-0 py-0 fs-5 mt-3 px-2">Export</button>
-            </NavLink>
+            <div className="d-flex justify-center mt-4">
+           <ButtonS name={"Edit"}/>
         </div>
       </div>
     </div>

@@ -1,4 +1,4 @@
-import check from "../assets/check.png";
+import check from "../../assets/check.png";
 export const SidebarData = [
   {
     title: "Dashobard",

@@ -1,11 +1,16 @@
-import React from 'react'
-import { NavLink } from 'react-router-dom'
+import React from "react";
+import { NavLink } from "react-router-dom";
+import ButtonP from "../../ui/ButtonP";
 const DonatedAddAssetComp = () => {
   return (
     <div className="bg-search-assets-comp ">
-    <div className="heading-asset-component text-center fs-1 pt-5 fw-bold" style={{color:"#0d6efd"}}>New Asstes</div>
+      <div
+        className="heading-asset-component text-center fs-1 pt-5 fw-bold"
+        style={{ color: "#0d6efd" }}
+      >
+        New Asstes
+      </div>
       <div className="container container-search-assets-comp ">
-        
         <div className="row ">
           <div className="col-md-4 d-flex justify-center">
             <div className="dropdown">
@@ -17,7 +22,7 @@ const DonatedAddAssetComp = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-               Tag Code
+                Tag Code
               </a>
 
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -50,7 +55,7 @@ const DonatedAddAssetComp = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-               Fixed Assets
+                Fixed Assets
               </a>
 
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -84,7 +89,7 @@ const DonatedAddAssetComp = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-              Asset Type
+                Asset Type
               </a>
 
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -152,7 +157,7 @@ const DonatedAddAssetComp = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-               Status
+                Status
               </a>
 
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -186,7 +191,7 @@ const DonatedAddAssetComp = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-               Tag color
+                Tag color
               </a>
 
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -253,7 +258,7 @@ const DonatedAddAssetComp = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-           Location
+                Location
               </a>
 
               <ul className="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -312,14 +317,11 @@ const DonatedAddAssetComp = () => {
         </div>
         {/* button start */}
         <div className="d-flex justify-center mt-5">
-            <NavLink>
-            <button className="btn btn-primary rounded-0 py-0 fs-5  px-4 btn-search-asset ">Create</button>
-            </NavLink>
+          <ButtonP label={"Create"} />
         </div>
-       
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default DonatedAddAssetComp
+export default DonatedAddAssetComp;
